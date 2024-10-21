@@ -1,0 +1,70 @@
+.container_nav {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color-one);
+    box-shadow: 0 0 10px 10px var(--color-background-strong);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    & .icon {
+        height: 35px;
+        width: 35px;
+        color: var(--color-zero);
+    }
+
+    & h1 {
+        font-family: var(--font-family-one);
+        font-size: 1.8rem;
+        color: var(--color-zero);
+    }
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.search input {
+    height: 2rem;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+
+.carshop {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.carshop_icon {
+    width: 30px;
+    height: 30px;
+    color: var(--color-zero);
+    transition: .2s ease;
+}
+
+.carshop_icon:hover {
+    opacity: 0.9;
+    transition: .2s ease;
+}
+
+.carshopfull svg{
+    color: rgb(255, 255, 126);
+}
+
+
+
